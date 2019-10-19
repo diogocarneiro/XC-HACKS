@@ -1,5 +1,7 @@
 # Variables
 # Use 0 or 1 for ONDEMAND
+# If you want to filter the channels build your own mysql select
+# Example for channels with H265 in the name just add WHERE stream_display_name LIKE '%H265%'
 
 SERVERID=
 ONDEMAND=     
